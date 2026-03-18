@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tmux list-panes:*)",
+      "Bash(env)",
+      "Bash(netstat -tuln)",
+      "Bash(curl -s http://localhost:9999)",
+      "Bash(curl -s http://127.0.0.1:20241)",
+      "Bash(curl -s http://127.0.0.1:3001)",
+      "Bash(npx:*)"
+    ]
+  }
+}
